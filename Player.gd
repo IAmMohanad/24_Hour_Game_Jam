@@ -7,7 +7,7 @@ onready var stand_shape = $StandingCollisionShape
 onready var sprite = $Sprite
 const UP = Vector2(0, -1)
 
-export var gravity = 1500
+export var gravity = 1000
 export var acceleration = 2000
 export var deacceleration = 2000
 export var max_horizontal_speed = 400
